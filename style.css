@@ -10,7 +10,7 @@
   body {
     font-family: 'Fahkwang', sans-serif;
     margin:0px auto;
-    background-color: #E0E0E0;
+    background-color: #5e6b69;
 
   }
 
@@ -24,7 +24,6 @@
     margin: 20px auto;
     opacity: .8;
     cursor: pointer;
-    width: 100px
   }
 
   .image:hover {
