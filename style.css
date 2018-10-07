@@ -34,7 +34,17 @@
     display: block;
   }
 
-  .header li, a, .button, h3, .image{
+  .header { 
+    font-family: 'Roboto Slab', serif;
+
+
+
+  }
+  li, a, 
+
+  .button, h3, 
+
+  .image{
       transition: all 0.10s ease-in-out;
     -webkit-transition: all 0.10s ease-in-out;
     -moz-transition: all 0.10s ease-in-out;
@@ -189,7 +199,7 @@
     min-height: 600px
   }
 
-  
+
   /* Beginning of CSS for mobile */
 
   @media screen and (max-width: 480px){ 
