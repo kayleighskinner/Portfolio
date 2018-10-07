@@ -31,6 +31,7 @@
   }
 
   img {
+    width: 100%;
     margin: auto;
     display: block;
   }
@@ -209,10 +210,6 @@ font-family: 'Roboto Slab', serif;
 
   #contact .section{
     min-height: 600px
-.fa-twitter
-    background: #55ACEE;
-    color: white;
-}
   }
 
 
