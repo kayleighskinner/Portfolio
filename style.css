@@ -24,6 +24,7 @@
     margin: 20px auto;
     opacity: .8;
     cursor: pointer;
+    width: 100px
   }
 
   .image:hover {
