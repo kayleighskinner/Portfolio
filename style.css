@@ -34,12 +34,7 @@
     display: block;
   }
 
-  .header { 
-    font-family: 'Roboto Slab', serif;
-
-
-
-  }
+  .header 
   li, a, 
 .work-nav {  
 font-family: 'Roboto Slab', serif;
@@ -50,7 +45,7 @@ font-family: 'Roboto Slab', serif;
     font-family: 'Roboto Slab', serif;
 
 
-    
+
   }
 
   .button, h3, 
@@ -78,6 +73,7 @@ font-family: 'Roboto Slab', serif;
     margin: auto;
     display: inline-block;
     padding: 0px;
+    font-family: 'Roboto Slab', serif;
   }
 
   .header li {
