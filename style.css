@@ -46,13 +46,9 @@ font-family: 'Cardo', serif;
 
   }
 
-   .header li, a, .button, h3, .image{
-      transition: all 0.10s ease-in-out;
-    -webkit-transition: all 0.10s ease-in-out;
-    -moz-transition: all 0.10s ease-in-out;
-    -o-transition: all 0.10s ease-in-out;
+  .button, h3, 
 
-    
+
 
   .header {
     width: 100%;
