@@ -52,13 +52,7 @@ font-family: 'Cardo', serif;
 
   .button, h3, 
 
-  .image{
-      transition: all 0.10s ease-in-out;
-    -webkit-transition: all 0.10s ease-in-out;
-    -moz-transition: all 0.10s ease-in-out;
-    -o-transition: all 0.10s ease-in-out;
-    width: 100px;
-  }
+
 
   .header {
     width: 100%;
