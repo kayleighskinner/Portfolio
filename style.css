@@ -76,7 +76,7 @@ font-family: 'Cardo', serif;
     margin: auto;
     display: inline-block;
     padding: 0px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Cardo', serif;
   }
 
   .header li {
@@ -101,7 +101,7 @@ font-family: 'Cardo', serif;
   }
 
   .header li a {
-    color:#B2AB9E;
+    color:##000000;
   }
 
   a {
