@@ -15,19 +15,12 @@
   }
 
   .headshot {
-    display: inline-block;
     width: auto;
     height: auto;
     width: 80%;
-    height: 250px;
+    height: 100px;
     margin: 20px auto;
     cursor: pointer;
-  }
-
-   img {
-    width: 100%;
-    margin: auto;
-    display: block;
   }
 
   .header 
