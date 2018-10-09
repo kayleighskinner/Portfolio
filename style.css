@@ -28,8 +28,27 @@
 .work-nav {  
 font-family: 'Cardo', serif;
 
-
 }
+
+.first-column {
+    width: 66%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.second-column {
+    width: 33%;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
+
+
+
+
+
+
+
   .contact-nav {
     font-family: 'Cardo', serif;
 
