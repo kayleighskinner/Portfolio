@@ -27,14 +27,14 @@ hr {
     margin: auto;
     display: inline-block;
     padding: 0px;
-    font-kerning: 2px
+    font-kerning: 10px
 }
 
 
 p {
   font-family:'Karla', sans-serif;
     margin:10px auto;
-    
+
  }
 
 img {
@@ -52,13 +52,22 @@ img {
 h2 {
  font-family:'Cardo', serif;
     font-size: 20px;
-    font-style: bold
-
-}
-
+    }
 a {
   text-decoration: none;
   color: #ccc;
+}
+
+a:link {
+    background-color: none;
+}
+
+a:visited {
+    background-color: none;
+}
+
+a:hover {
+    color: #4eb1ac;
 }
 
 ul {
