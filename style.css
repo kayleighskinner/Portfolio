@@ -1,281 +1,94 @@
-/* Beginning of CSS */
-
-  * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
+ body {
+background-color: #5e6b69;
   }
 
-  body {
-    font-family: 'Karla', sans-serif;
-    margin:0px auto;
-    background-color: #5e6b69;
-
-  }
-
-  .headshot {
-    width: auto;
-    height: auto;
-    width: 80%;
-    height: 100px;
-    margin: 20px auto;
-    cursor: pointer;
-  }
-
-  .header 
-  li, a, 
-.work-nav {  
-font-family: 'Cardo', serif;
-
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 10px solid #ccc;
+    margin: .5em 0;
+    padding: 0;
+}
+ 
+ .name {
+  text-align: center
 }
 
-.first-column {
-    width: 66%;
-    padding: 0 10px 0 0;
-    float: left;
+.column {
+  display: block;
+  width: 33.35%;
+  padding: 5px;
 }
 
-.second-column {
-    width: 33%;
-    padding: 0 10px 0 0;
-    float: right;
-}
-
-
-
-
-
-
-
-
-  .contact-nav {
-    font-family: 'Cardo', serif;
-
-
-
-  }
-
-  .button, h3, 
-
-
-
-  .header {
-    width: 100%;
-    top:0px;
-    background:#fff;
-    position: fixed;
-    height: 40px;
-    z-index: 9999;
-    text-align: center;
-    border-bottom: 1px solid #f5f1ef;
-    display: inline-block;
-  }
-
-  .header ul {
+  h1 {
+    font-family:'Cardo', serif;
+    font-size: 50px;
     margin: auto;
     display: inline-block;
     padding: 0px;
-    font-family: 'Cardo', serif;
-  }
+    font-kerning: 2px
+}
 
-  .header li {
-    float: left;
-    padding: 10px 20px 10px 0px;
-    cursor: pointer;
-    list-style-type: none;
-    height:40px;
-  }
 
-  .header li h3 {
-    border-left: 1px solid #cecece;
-    padding-left: 20px;
-  }
-
-  .header li:first-child h3{
-    border-left:0px;
-  }
-
-  .header li.active a {
-    color: rgba(0,0,0,.8);
-  }
-
-  .header li a {
-    color:##000000;
-  }
-
-  a {
-    color:rgba(0,0,0,.8);
-    text-decoration: none;
-  }
-
-  a:hover {
-    color:rgba(0,0,0,.8);
-  }
-
-  #container {
-    color: #333;
-    width: 100%;
-    margin:0px;
-    font-weight: 200;
-    text-align: center;
-
-  }
-
-  #container .inner {
-    max-width: 960px;
-    width: 100%;
+p {
+  font-family:'Karla', sans-serif;
     margin:10px auto;
-    padding:20px 0px;
-    display: inline-block;
-    font-family: 'Cardo', serif;
-  }
+ }
 
-  #container .inner.double {
-    float: left;
-    width: 50%;
-  }
+img {
+  width: 100%;
+  height: auto;
+}
 
-  #container .inner.triple {
-    float: left;
-    width: 33%;
-  }
 
-  .inner.triple p {
-    max-width: 300px;
-    margin: auto;
+.row1 {
+  column-count: 3;
+  padding: 30px;
+  display: flex;
+}
+
+h2 {
+ font-family:'Cardo', serif;
+    font-size: 20px;
+    font-style: bold
+
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+ul {
+  font-family:'Karla', sans-serif;
+  margin: 10px auto
+}
+
+
+.footertext {
+  font-family:'Karla', sans-serif;
+  color: #ccc;
+  padding: 30px;
+
+}
+
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height:50px
-
-  }
-
-  h1 {
-    font-family: 'Cardo', serif
-    font-size: 80px;
-    color:#000000;
-    font-weight: 200;
-    margin: 50px 0px 20px
-  
-  }
-
-  h2 {
-    font-size: 40px;
-    color:#000000;
-    margin:50px 0px 0px 0px;
-    font-weight: 200;
-  }
-
-  h3 {
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: .1em;
-    font-weight: bold;
-    margin:0px;
-  }
-
-  p {
-    font-size: 15px;
-    color: rgba(0,0,0,.8);
-    font-family: 'Karla', sans-serif;
-    letter-spacing: .02em;
-    font-weight: 300;
-    line-height: 1.5em
-  }
-
-  #container > div {
-    padding-top:10px;
-    display: inline-block;
-    width: 100%
-  }
-
-  .section {
-    border-bottom: 1px solid #cecece;
-    padding: 50px 0px;
-    display: inline-block;
-    width: 100%;
-    min-height: 400px
-  }
-
-  .footer .section{
-    margin: 0px;
-     border:0px;
-  }
-
-  .footer {
-    background: #222;
-  }
-
-  .footer p {
-    color: #fff
-  }
-
-  #contact .section{
-    min-height: 600px
-  }
+    background-color: #353131; 
+    color: #ccc;
+    text-align: left;
+    height: 50px
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* Beginning of CSS for mobile */
-
-  @media screen and (max-width: 480px){ 
-    
-    p {
-      margin-bottom: 0px
-    }
-
-    h1 {
-      font-size: 50px;
-    }
-
-    h2 {
-      font-size: 30px
-    }
-
-    header li {
-      padding:10px 8px 10px 0px;
-    }
-
-    header li h3 {
-      padding-left:8px;
-    }
-
-    .image {
-      width: 100%;
-      max-width: 300px
-    }
-
-    #container .inner.double, #container .inner.triple {
-      max-width: 300px;
-      width: 100%;
-      float: none;
-      margin: 30px auto 0px;
-    }
-
-    #home p {
-      padding:0px 50px;
-    }
-
-    .inner.triple p {
-      height: auto
-    }
-
-  }

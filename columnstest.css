@@ -1,0 +1,14 @@
+.row1 {
+	column-count: 2;
+}
+
+img {
+	width: 100px;
+	height:auto;
+
+}
+
+.column1 {
+width: 33%;
+float: left;
+}
